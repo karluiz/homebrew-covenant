@@ -1,6 +1,6 @@
 cask "covenant" do
-  version "0.8.44"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  version "0.8.45"
+  sha256 "579ec397d01d5ee3fa1116949d037b5fb6c04e5bce0f4cb99960f2797a206461"
 
   url "https://github.com/karluiz/covenant/releases/download/v#{version}/Covenant_#{version}_aarch64.dmg"
   name "Covenant"
