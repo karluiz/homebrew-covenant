@@ -1,14 +1,20 @@
 cask "covenant" do
-  version "0.8.45"
-  sha256 "579ec397d01d5ee3fa1116949d037b5fb6c04e5bce0f4cb99960f2797a206461"
+  version "0.8.51"
 
-  url "https://github.com/karluiz/covenant/releases/download/v#{version}/Covenant_#{version}_aarch64.dmg"
+  on_arm do
+    sha256 "d917fbdcb6142c8e4368755aa9c9e0b44da2b610ee894c064bee889efb1b7821"
+    url "https://github.com/karluiz/covenant/releases/download/v#{version}/Covenant_#{version}_aarch64.dmg"
+  end
+  on_intel do
+    sha256 "1cf766d0da802a2a4a228bb2caad3426655c4e7c45579a78cf9e033ec14dc26d"
+    url "https://github.com/karluiz/covenant/releases/download/v#{version}/Covenant_#{version}_x64.dmg"
+  end
+
   name "Covenant"
   desc "AI-native terminal for macOS"
   homepage "https://covenant.uno"
 
   depends_on macos: ">= :ventura"
-  depends_on arch: :arm64
 
   app "Covenant.app"
 
