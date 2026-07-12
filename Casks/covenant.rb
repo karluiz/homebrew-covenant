@@ -1,13 +1,13 @@
 cask "covenant" do
-  version "0.9.6"
+  version "0.9.7"
 
   on_arm do
-    sha256 "4d16ae77ec6279d29dbc221b2834de39d9b09320597ad2e5a32f7a604db3cf79"
-    url "https://github.com/karluiz/covenant/releases/download/v0.9.6/Covenant_#{version}_aarch64.dmg"
+    sha256 "9c90355977b01ae03462561adeca56e8ad351542729a34d43738d98bb58a99af"
+    url "https://github.com/karluiz/covenant/releases/download/v0.9.7/Covenant_#{version}_aarch64.dmg"
   end
   on_intel do
-    sha256 "45e3a3fabff03d4de280333da4e2656888a33b380906518cf1d285895914f7e2"
-    url "https://github.com/karluiz/covenant/releases/download/v0.9.6/Covenant_#{version}_x64.dmg"
+    sha256 "ffbb8803d0140d7e4d735efa194fb2f0c5ec82d7f9a213c764503fdfe527f591"
+    url "https://github.com/karluiz/covenant/releases/download/v0.9.7/Covenant_#{version}_x64.dmg"
   end
 
   name "Covenant"
