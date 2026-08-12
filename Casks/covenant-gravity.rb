@@ -1,6 +1,6 @@
 cask "covenant-gravity" do
-  version "0.39.56"
-  sha256 "979fb234b5b05a874ef387d5e1f05d368a3589823159d012890120f6b9796b99"
+  version "0.39.57"
+  sha256 "7ee55c0b02226b854db19b6e0383bd2255ded0755702c0a46b2fa4f952ed564f"
 
   url "https://github.com/CleveritDemo/covenant-v2/releases/download/v#{version}/Covenant-Gravity-#{version}-arm64.dmg"
   name "Covenant Gravity"
